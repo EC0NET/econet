@@ -1,0 +1,6 @@
+#about {
+    background-color: #dbf6bfff;
+    height: calc(80vh - 6rem);
+    display: flex;
+    align-items: top;
+}
