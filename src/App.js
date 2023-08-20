@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar/Navbar.jsx";
-import About from "./components/About/about.jsx";
-import Volunteer from "./components/Volunteer/volunteer.jsx";
-import Organizations from "./components/Organizations/organizations.jsx";
-import Support from "./components/Support/support.jsx";
-import Footer from "./components/Footer/footer.jsx";
+import About from "./components/About/About.jsx";
+import Volunteer from "./components/Volunteer/Volunteer.jsx";
+import Organizations from "./components/Organizations/Organizations.jsx";
+import Support from "./components/Support/Support.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
