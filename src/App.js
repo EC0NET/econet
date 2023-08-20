@@ -8,19 +8,9 @@ import Footer from "./components/Footer/Footer.jsx";
 function App() {
   return (
     <div className="App">
-      <style jsx global>{
-      `body {
-             margin: 0px;
-             padding: 0px;
-         }`
-      }</style>
-
-      <Navbar/>
       <About/>
-      <Volunteer/>
       <Organizations/>
       <Support/>
-      <Footer/>
     </div>
 
     
