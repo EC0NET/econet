@@ -9,12 +9,6 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <style jsx global>{
-      `body {
-             margin: 0px;
-             padding: 0px;
-         }`
-      }</style>
 
       <Navbar/>
       <Routes>
