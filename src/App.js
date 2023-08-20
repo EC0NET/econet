@@ -1,18 +1,29 @@
-import Navbar from "./components/Navbar/Navbar.jsx";
-import About from "./components/About/About.jsx";
-import './App.css';
+import Navbar from "./components/Navbar/navbar.jsx";
+import About from "./components/About/about.jsx";
+import Volunteer from "./components/Volunteer/volunteer.jsx";
+import Organizations from "./components/Organizations/organizations.jsx";
+import Support from "./components/Support/support.jsx";
+import Footer from "./components/Footer/footer.jsx";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <style jsx global>{`
-         body{
+      <style jsx global>{
+      `body {
              margin: 0px;
              padding: 0px;
-         }
-        `}</style>
+         }`
+      }</style>
+
       <Navbar/>
-      <About/>
+      <Routes>
+        <Route path="/econet" element={ <About/> } />
+        <Route path="/volunteer" element={ <Volunteer/> } />
+        <Route path="/organizations" element={ <Organizations/> } />
+        <Route path="/support" element={ <Support/> } />
+      </Routes>
+      <Footer/>
     </div>
 
     

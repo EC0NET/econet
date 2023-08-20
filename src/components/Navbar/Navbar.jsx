@@ -1,18 +1,19 @@
 import React from 'react'
-import './Navbar.css';
-import tree from '../../assets/digitaltree.png';
+import './navbar.scss';
+import econet_icon from '../../assets/econet_icon.png';
 
+/* Navigation bar for EcoNet site containing the logo and navigation buttons */
 const Navbar = () => {
   return (
     <section id="navbar">
-        <div className='icon'>
-            <img className='tree' src={tree}></img>
-            <h1>Econet</h1>
+        <div className="logo">
+            <img className="econet_icon" src={ econet_icon }></img>
+            <a href="/econet" className="title">EcoNet</a>
         </div>
         <div className='buttons'>
-            <h2>Volunteers</h2>
-            <h2>Organizations</h2>
-            <h2>Support</h2>
+          <a href="/volunteer" className="navigation_button">Volunteer</a>
+          <a href="/organizations" className="navigation_button">Organizations</a>
+          <a href="/support" className="navigation_button">Support</a>
         </div>
     </section>
   )
