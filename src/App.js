@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar/navbar.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
 import About from "./components/About/about.jsx";
 import Volunteer from "./components/Volunteer/volunteer.jsx";
 import Organizations from "./components/Organizations/organizations.jsx";
