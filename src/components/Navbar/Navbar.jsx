@@ -8,7 +8,7 @@ const Navbar = () => {
     <section id="navbar">
         <div className="logo">
             <img className="econet_icon" src={ econet_icon }></img>
-            <a href="/econet" className="title">EcoNet</a>
+            <a href="/" className="title">EcoNet</a>
         </div>
         <div className='buttons'>
           <a href="/volunteer" className="navigation_button">Volunteer</a>
