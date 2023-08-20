@@ -1,6 +1,4 @@
 #about {
     background-color: #dbf6bfff;
-    height: calc(80vh - 6rem);
-    display: flex;
-    align-items: top;
+    height: calc(93vh - 6rem); /* 6rem is the height of the navbar, 7vh accounts for the footer */
 }

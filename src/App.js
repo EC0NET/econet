@@ -5,9 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <style jsx global>{`
+         body{
+             margin: 0px;
+             padding: 0px;
+         }
+        `}</style>
       <Navbar/>
       <About/>
     </div>
+
+    
   );
 }
 
