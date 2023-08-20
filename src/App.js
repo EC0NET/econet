@@ -4,7 +4,6 @@ import Volunteer from "./components/Volunteer/Volunteer.jsx";
 import Organizations from "./components/Organizations/Organizations.jsx";
 import Support from "./components/Support/Support.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -17,12 +16,10 @@ function App() {
       }</style>
 
       <Navbar/>
-      <Routes>
-        <Route path="/econet" element={ <About/> } />
-        <Route path="/volunteer" element={ <Volunteer/> } />
-        <Route path="/organizations" element={ <Organizations/> } />
-        <Route path="/support" element={ <Support/> } />
-      </Routes>
+      <About/>
+      <Volunteer/>
+      <Organizations/>
+      <Support/>
       <Footer/>
     </div>
 
